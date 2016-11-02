@@ -1,0 +1,56 @@
+.front-side {
+	box-sizing: border-box;
+	display: block;
+	position:relative;
+	height: 1000px;
+}
+
+.carousel {
+  height: 700px;
+  margin-bottom: 60px;
+}
+.carousel .item {
+  height: 700px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+.search {
+	margin-top: -9%;
+}
+.search .form-section{
+	background:rgba(0,0,0,0.6);
+	border: 2px solid #414141;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.front-text
+{
+    position: absolute;
+    top: 150px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
